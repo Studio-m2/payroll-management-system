@@ -1,0 +1,12 @@
+<?php include('connection.php');
+session_start();
+?>
+<?php
+foreach($_SESSION['array'] as $key=>$value)
+{
+print_r($value);
+
+}
+
+?>
+
